@@ -1,0 +1,45 @@
+.CVButton {
+
+    
+    background-color: #3f51b5; // Replace with the color of your choice
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif; // Replace with the modern font of your choice
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+ 
+     position: fixed;
+     top: 14px;
+    z-index: 3;
+   
+    
+    right: 30px;
+      
+  
+    // Add hover effect
+    &:hover {
+      background-color: #303f9f; // Replace with the hover color of your choice
+    }
+
+    @media screen and (max-width: 900px) {
+        position: fixed;
+        top: 14px;
+        right:100px
+      }
+   
+
+  }
+  
+  .CVButton__icon {
+    margin-right: 10px; // Add space between the icon and text
+  }
+  
