@@ -36,7 +36,7 @@ const Footer = () => {
     setIsFormSubmitted(true);
 
     console.log(name, email, message);
-    let result = await fetch("https://backend-ofrh.onrender.com", {
+    let result = await fetch("https://porto-ukfw.onrender.com", {
       method: "post",
       body: JSON.stringify({ name, email, message }),
       headers: {
