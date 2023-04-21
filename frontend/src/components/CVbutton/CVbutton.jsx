@@ -5,13 +5,13 @@ import React from "react";
 import "./CVbutton.scss";
 // import { images } from "../../constants";
 
-import CV from "../../assets/Vivek__singh resume.pdf";
+import CV from "../../assets/VivekSingh62.pdf";
 
 const CVbutton = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = CV;
-    link.download = "Vivek__singh resume.pdf";
+    link.download = "VivekSingh62.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
