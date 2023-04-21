@@ -34,7 +34,7 @@ import keeper from "../assets/keeper.png";
 
 import skype from "../assets/skype.png";
 
-import CV from "../assets/Vivek__singh resume.pdf";
+import CV from "../assets/VivekSinghcs62.pdf";
 
 export default {
   email,
